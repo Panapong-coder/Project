@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#add-book, #borrow-book, #search-book {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input, button {
+  margin: 5px;
+  padding: 8px;
+}
+
+#search-results {
+  margin-top: 10px;
+}
+
+#book-list ul{
+    list-style-type: none;
+    padding:0;
+}
+
+#book-list li{
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+}
